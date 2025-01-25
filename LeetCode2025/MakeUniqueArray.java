@@ -1,6 +1,8 @@
-import java.util.*;
+import java.util.HashSet;
 public class MakeUniqueArray {
 public static int minElementToRemove(int arr[]) {
+	//comment.
+	//comment
 	HashSet<Integer> uniqueElement=new HashSet<>();
 	int DuplicateCounter=0;
 	for(int num:arr) {
