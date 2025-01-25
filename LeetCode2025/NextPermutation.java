@@ -2,6 +2,7 @@ import java.util.*;
 class NextPermutation{
 	public void nextPermutation(int []nums) {
 		int n=nums.length;
+		//comment
 		// Step-1: Find first decreasing element from end (mark as pivot)
 		int i=n-2;
 		while(i>=0 && nums[i]>=nums[i+1]) {
